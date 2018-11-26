@@ -1,0 +1,382 @@
+2018/07/16 15:37:53 [error] [php] Undefined property: stdClass::$sell (/var/web/yaamp/core/backend/markets.php:1374)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/07/16 15:53:44 [error] [php] Undefined property: stdClass::$sell (/var/web/yaamp/core/backend/markets.php:1374)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/07/30 17:37:55 [error] [php] Undefined offset: 1 (/var/web/yaamp/modules/site/results/graph_hashrate_results.php:33)
+Stack trace:
+#0 /var/web/framework/web/CController.php(872): SiteController->renderFile()
+#1 /var/web/yaamp/modules/site/SiteController.php(427): SiteController->renderPartial()
+#2 /var/web/yaamp/modules/site/SiteController.php(466): SiteController->renderPartialAlgoMemcached()
+#3 /var/web/framework/web/actions/CInlineAction.php(49): SiteController->actionGraph_hashrate_results()
+#4 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/web/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/web/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/web/framework/web/CWebApplication.php(304): SiteController->run()
+#8 /var/web/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/web/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/web/index.php(27): CWebApplication->run()
+REQUEST_URI=/site/graph_hashrate_results
+2018/08/04 11:06:57 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/11 06:39:14 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/20 19:14:18 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/20 21:11:44 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/20 22:17:18 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/20 22:49:06 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 01:04:23 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 05:04:39 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 07:07:10 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 07:21:50 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 09:20:45 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 10:09:35 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 11:15:31 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 12:21:48 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 13:28:23 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 14:34:47 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 23:03:00 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/21 23:17:28 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/22 03:26:43 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/22 15:38:39 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/22 17:39:43 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/22 20:17:00 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 02:10:39 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 06:48:55 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 11:01:04 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 14:54:24 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 15:08:39 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 15:23:22 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 15:37:33 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 15:51:44 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 21:52:36 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/23 23:17:07 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/24 00:21:05 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/24 01:10:01 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/24 11:09:15 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/24 14:01:57 [error] [php] Invalid argument supplied for foreach() (/var/web/yaamp/core/backend/markets.php:231)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/08/28 13:50:51 [error] [php] Undefined property: stdClass::$sell (/var/web/yaamp/core/backend/markets.php:1374)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/10/30 10:39:02 [error] [php] Undefined property: stdClass::$sell (/var/web/yaamp/core/backend/markets.php:1374)
+Stack trace:
+#0 /var/web/framework/web/actions/CInlineAction.php(49): CronjobController->actionRun()
+#1 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#3 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#4 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#5 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
+2018/11/15 01:11:11 [error] [php] Undefined index: status (/var/web/yaamp/core/backend/rawcoins.php:323)
+Stack trace:
+#0 /var/web/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/web/framework/web/CController.php(286): CronjobController->runAction()
+#2 /var/web/framework/web/CController.php(265): CronjobController->runActionWithFilters()
+#3 /var/web/yaamp/components/CYiimpConsoleApp.php(125): CronjobController->run()
+#4 /var/web/runconsole.php(18): CYiimpConsoleApp->runController()
+
